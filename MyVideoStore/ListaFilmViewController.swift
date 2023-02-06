@@ -17,6 +17,8 @@ class ListaFilmViewController: UIViewController, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
+        tbl.rowHeight = UITableView.automaticDimension
+        
         let cell = tbl.dequeueReusableCell(withIdentifier: "cellaFilm") as! FilmTableViewCell
         
         //recupero il film per ogni riga
