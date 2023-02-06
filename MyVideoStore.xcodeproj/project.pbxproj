@@ -15,6 +15,7 @@
 		30817A27298E4FF9002C3C40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30817A25298E4FF9002C3C40 /* LaunchScreen.storyboard */; };
 		30817A2F298E6158002C3C40 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30817A2E298E6158002C3C40 /* Film.swift */; };
 		30817A31298E6586002C3C40 /* FilmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30817A30298E6586002C3C40 /* FilmTableViewCell.swift */; };
+		308661E12990FA4E00B19CF6 /* DettaglioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308661E02990FA4E00B19CF6 /* DettaglioViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		30817A28298E4FF9002C3C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30817A2E298E6158002C3C40 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
 		30817A30298E6586002C3C40 /* FilmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmTableViewCell.swift; sourceTree = "<group>"; };
+		308661E02990FA4E00B19CF6 /* DettaglioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DettaglioViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				30817A28298E4FF9002C3C40 /* Info.plist */,
 				30817A2E298E6158002C3C40 /* Film.swift */,
 				30817A30298E6586002C3C40 /* FilmTableViewCell.swift */,
+				308661E02990FA4E00B19CF6 /* DettaglioViewController.swift */,
 			);
 			path = MyVideoStore;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				308661E12990FA4E00B19CF6 /* DettaglioViewController.swift in Sources */,
 				30817A1F298E4FF5002C3C40 /* ListaFilmViewController.swift in Sources */,
 				30817A2F298E6158002C3C40 /* Film.swift in Sources */,
 				30817A1B298E4FF5002C3C40 /* AppDelegate.swift in Sources */,
